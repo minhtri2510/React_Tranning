@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .rowline {
+        width: 40%;
+        margin-right: 20px;
+      }
+      .rowline2 {
+        width: 60%;
+      }
+      .cill{
+        margin-left: 15px;
+        padding: 15px 0 15px 0;
+        border-bottom: 2px dashed pink;
+      }
+
+      @media (max-width: 1000px) {
+        .container{ 
+            display: flex;
+            flex-direction: column;
+        }
+        .rowline{
+            width: 100%;
+        }
+        .rowline2{
+            width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Issues & Plans</h1>
+      <p style="text-transform: lowercase;">
+        justify-content cung cấp các tùy chọn để điều chỉnh và căn chỉnh các
+        phần tử con trong Flex container theo chiều ngang. Bằng cách sử d
+      </p>
+    </div>
+    <div class="container" style="width: 100%; display: flex">
+      <div class="rowline">
+        <div
+          style="
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: rgb(66, 80, 206);
+          "
+        >
+          <h1 style="color: aliceblue;">Học Web Chuẩn</h1>
+        </div>
+        <div>
+          <h2>
+            "Hy vọng điều này giúp bạn hiểu và sử dụng align-content và
+            align-items trong CSS Flexbox một cách chính xác."
+          </h2>
+          <p style="text-align: justify; line-height: 2.5;">
+            Trong ví dụ trên, align-items được đặt là center, điều này sẽ căn
+            chỉnh các phần tử con trong Flex container để nằm chính giữa theo
+            chiều dọc. Lưu ý rằng align-content và align-items chỉ có tác dụng
+            khi Flex container có đủ không gian theo chiều dọc để thực hiện căn
+            chỉnh. Nếu không, align-items sẽ căn chỉnh các phần tử con theo
+            chiều dọc và align-content sẽ căn chỉnh các dòng trong container.
+          </p>
+        </div>
+      </div>
+      <div class="rowline2">
+        <div>
+            <div class="cill" style="display: flex;padding-top: 0px;">
+                <div 
+                  style="
+                    display: flex;
+                    background-color: palevioletred;
+                    width:40vh;
+                    height: 30vh;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    margin-right: 20px;
+                    
+                    border-radius: 10%;
+                  "
+                >
+                  <p style="font-size: 18vh;color: aliceblue;">H</p>
+                </div>
+                <div style="display: flex;flex-direction: column; justify-content: center">
+                  <h2 style="margin: 0;">CLIMATE CHANGE</h2>
+                  <p style="text-align: justify; line-height: 2;margin: 0px;">
+                    Hy vọng điều này giúp bạn hiểu và sử dụng align-content và
+                    align-items trong CSS Flexbox một cách chính xác.
+                  </p>
+                </div>
+              </div>
+              <div class="cill" style="display: flex;">
+                <div 
+                  style="
+                    display: flex;
+                    background-color: palevioletred;
+                    width:40vh;
+                    height: 30vh;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    margin-right: 20px;
+                    
+                    border-radius: 10%;
+                  "
+                >
+                  <p style="font-size: 18vh;color: aliceblue;">H</p>
+                </div>
+                <div style="display: flex;flex-direction: column; justify-content: center">
+                  <h2 style="margin: 0;">CLIMATE CHANGE</h2>
+                  <p style="text-align: justify; line-height: 2;margin: 0px;">
+                    Hy vọng điều này giúp bạn hiểu và sử dụng align-content và
+                    align-items trong CSS Flexbox một cách chính xác.
+                  </p>
+                </div>
+              </div>
+              <div class="cill" style="display: flex;">
+                <div 
+                  style="
+                    display: flex;
+                    background-color: palevioletred;
+                    width:40vh;
+                    height: 30vh;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    margin-right: 20px;
+                    
+                    border-radius: 10%;
+                  "
+                >
+                  <p style="font-size: 18vh;color: aliceblue;">H</p>
+                </div>
+                <div style="display: flex;flex-direction: column; justify-content: center">
+                  <h2 style="margin: 0;">CLIMATE CHANGE</h2>
+                  <p style="text-align: justify; line-height: 2;margin: 0px;">
+                    Hy vọng điều này giúp bạn hiểu và sử dụng align-content và
+                    align-items trong CSS Flexbox một cách chính xác.
+                  </p>
+                </div>
+              </div>
+              <div class="cill" style="display: flex;">
+                <div 
+                  style="
+                    display: flex;
+                    background-color: palevioletred;
+                    width:40vh;
+                    height: 30vh;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    margin-right: 20px;
+                    
+                    border-radius: 10%;
+                  "
+                >
+                  <p style="font-size: 18vh;color: aliceblue;">H</p>
+                </div>
+                <div style="display: flex;flex-direction: column; justify-content: center">
+                  <h2 style="margin: 0;">CLIMATE CHANGE</h2>
+                  <p style="text-align: justify; line-height: 2;margin: 0px;">
+                    Hy vọng điều này giúp bạn hiểu và sử dụng align-content và
+                    align-items trong CSS Flexbox một cách chính xác.
+                  </p>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
